@@ -8,6 +8,14 @@ class AccountPage extends StatefulWidget {
 class _AccountPageState extends State<AccountPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+
+      appBar: AppBar(
+        title:Text(
+          '나의 하루들',
+          style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold ),
+        )
+      ),
+    );
   }
 }
