@@ -28,7 +28,7 @@ class _TabPageState extends State<TabPage> {
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(icon: Icon(Icons.search), title: Text('Ourdays')),
             BottomNavigationBarItem(icon: Icon(Icons.create), title: Text('Write')),
-            BottomNavigationBarItem(icon: Icon(Icons.account_circle), title: Text('dMydays')),
+            BottomNavigationBarItem(icon: Icon(Icons.account_circle), title: Text('Mydays')),
           ]),
     );
   }
