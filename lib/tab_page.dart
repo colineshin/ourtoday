@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:ourtoday/account_page.dart';
 import 'package:ourtoday/write_page.dart';
 import 'package:ourtoday/search_page.dart';
+import 'package:ourtoday/closed_page.dart';
+import 'package:ourtoday/signup.dart';
 
 class TabPage extends StatefulWidget {
   @override
@@ -15,6 +17,8 @@ class _TabPageState extends State<TabPage> {
     SearchPage(),
     WritePage(),
     AccountPage(),
+    ClosedPage(),
+    SignUpPage(),
   ];
 
   @override
@@ -29,6 +33,8 @@ class _TabPageState extends State<TabPage> {
             BottomNavigationBarItem(icon: Icon(Icons.search), title: Text('Ourdays')),
             BottomNavigationBarItem(icon: Icon(Icons.create), title: Text('Write')),
             BottomNavigationBarItem(icon: Icon(Icons.account_circle), title: Text('Mydays')),
+            BottomNavigationBarItem(icon: Icon(Icons.close), title: Text('closed')),
+            BottomNavigationBarItem(icon: Icon(Icons.edit), title: Text('signup')),
           ]),
     );
   }

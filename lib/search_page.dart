@@ -8,6 +8,15 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('우리하루'),
+      ),
+      body: Center(
+        child: SizedBox(
+            child: Text('가운데')
+        ),
+      ),
+    );
   }
 }
