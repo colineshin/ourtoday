@@ -12,13 +12,12 @@ class _SignUpPageState extends State<SignUpPage> {
     return Scaffold(
       backgroundColor: Colors.grey,
       body: Stack(
+        fit: StackFit.expand,
         children: <Widget>[
-        //  Image(
-              //image:
         Image.network(
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/French_and_German_Gummy_bears.JPG/450px-French_and_German_Gummy_bears.JPG",
-          fit: BoxFit.cover,
-          colorBlendMode: BlendMode.darken,
+          fit: BoxFit.fill,
+          colorBlendMode: BlendMode.colorBurn,
          ),
         Center(
           child: SizedBox(
